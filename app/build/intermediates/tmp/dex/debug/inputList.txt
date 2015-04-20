@@ -1,0 +1,5 @@
+C:\Users\Andres Arguelles\AndroidStudioProjects\SensorCenter\app\build\intermediates\classes\debug
+C:\Users\Andres Arguelles\AndroidStudioProjects\SensorCenter\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-6d5802afc6c5b253cd7bc96f2f6f3a7cc110b998.jar
+C:\Users\Andres Arguelles\AndroidStudioProjects\SensorCenter\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-e590b517c0d78f4475fd3179d33731b1121167cc.jar
+C:\Users\Andres Arguelles\AndroidStudioProjects\SensorCenter\app\build\intermediates\pre-dexed\debug\classes-e945addfc9997c0a141e60d7cd766a0ef851d487.jar
+C:\Users\Andres Arguelles\AndroidStudioProjects\SensorCenter\app\build\intermediates\pre-dexed\debug\classes-3267d4ae10a4a089bbf974dbb2eebdfc093a32ad.jar

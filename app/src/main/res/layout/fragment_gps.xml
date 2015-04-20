@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idFragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uninorte.androidfragmenttest.MainActivity$PlaceholderFragment" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Latitud"
+        android:id="@+id/txtvLatitud"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Longitud"
+        android:id="@+id/txtVLongitud"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtvLatitud"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Velocidad"
+        android:id="@+id/txtVVelocidad"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtVLongitud"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTLatitud"
+        android:layout_above="@+id/txtVLongitud"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:editable="false"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTLongitud"
+        android:layout_above="@+id/txtVVelocidad"
+        android:layout_alignLeft="@+id/editTLatitud"
+        android:layout_alignStart="@+id/editTLatitud"
+        android:layout_alignRight="@+id/editTLatitud"
+        android:layout_alignEnd="@+id/editTLatitud"
+        android:editable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTVelocidad"
+        android:layout_alignBottom="@+id/txtVVelocidad"
+        android:layout_alignLeft="@+id/editTLongitud"
+        android:layout_alignStart="@+id/editTLongitud"
+        android:layout_alignRight="@+id/editTLongitud"
+        android:layout_alignEnd="@+id/editTLongitud"
+        android:editable="false" />
+</RelativeLayout>

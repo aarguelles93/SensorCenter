@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="UninorteTheme" parent="@style/_UninorteTheme"/>
+
+  <style name="_UninorteTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextUninorteTheme</item>
+
+    <item name="android:buttonStyle">@style/ButtonUninorteTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonUninorteTheme</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerUninorteTheme</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemUninorteTheme</item>
+
+    <item name="android:listViewStyle">@style/ListViewUninorteTheme</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewUninorteTheme.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemUninorteTheme</item>
+
+  </style>
+
+</resources>
