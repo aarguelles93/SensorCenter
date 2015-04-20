@@ -36,7 +36,7 @@ public class FragmentGps extends Fragment implements LocationListener {
 		View rootView = inflater.inflate(R.layout.fragment_gps, container, false);
 
         editTLatitud = (TextView) rootView.findViewById(R.id.editTLatitud);
-        editTLongitud = (TextView) rootView.findViewById(R.id.editTLatitud);
+        editTLongitud = (TextView) rootView.findViewById(R.id.editTLongitud);
         editTVelocidad = (TextView) rootView.findViewById(R.id.editTVelocidad);
 
 		return rootView;

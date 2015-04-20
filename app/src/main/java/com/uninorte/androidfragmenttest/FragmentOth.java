@@ -112,7 +112,7 @@ public class FragmentOth extends Fragment implements SensorEventListener {
                     for (int i=0; i<=3; i++){
                         vectorRotacion += (sensorEvent.values[i]+"\n");
                     }
-                    break;
+                break;
                 case Sensor.TYPE_PROXIMITY:
                     proximidad = ("Proximidad "+": "+sensorEvent.values[0]+"cm"+"\n");
                 break;
@@ -126,9 +126,8 @@ public class FragmentOth extends Fragment implements SensorEventListener {
                     luz = ("Luz "+": "+sensorEvent.values[0]+"lx"+"\n");
                 break;
             }
-            txtVSensores.setText(orientacion+"\n"+gravedad+"\n"+campoMagnetico+"\n"+giroscopio+"\n"+proximidad+"\n"+temperaturaAmb+"\n"+temperatura+"\n"+luz);
         }
-
+        txtVSensores.setText(orientacion+"\n"+gravedad+"\n"+campoMagnetico+"\n"+giroscopio+"\n"+proximidad+"\n"+temperaturaAmb+"\n"+temperatura+"\n"+luz);
     }
 
     @Override
